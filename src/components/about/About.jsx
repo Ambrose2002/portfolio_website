@@ -16,9 +16,8 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">
-                    Hello and welcome! I'm Ambrose Blay, currently studying myself in Computer Science at Cornell University. 
-                    I'm an advocate for mentorship, guiding aspiring talents in the tech. 
+                    <p className="about__description"> 
+                    I'm an advocate for mentorship, guiding aspiring talents in tech. 
                     Passionate about innovation and inclusivity, I strive to contribute meaningfully to the ever-evolving tech landscape. 
                     Explore my portfolio to discover more about my projects, skills, and aspirations.
                     </p>
