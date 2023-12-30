@@ -35,17 +35,19 @@ const Contact = () => {
                             <h3 className="contact__card-title">WhatsApp</h3>
                             <span className="contact__card-data">+233 828 8536</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button">Write me
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button">Text me
+                                {/* <i className="bx bx-right-arrow-alt contact__button-icon"></i> */}
+                            </a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-messenger contact__card-icon"></i>
-                            <h3 className="contact__card-title">Messenger</h3>
+                            <i class='bx bx-phone contact__card-icon' ></i>
+                            <h3 className="contact__card-title">Phone</h3>
                             <span className="contact__card-data">+1 240 443 1954</span>
 
-                            <a href="https://m.me/crypticalcoder" className="contact__button">Write me
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://m.me/crypticalcoder" className="contact__button">Call me
+                                {/* <i className="bx bx-right-arrow-alt contact__button-icon"></i> */}
+                            </a>
                         </div>
                     </div>
                 </div>
