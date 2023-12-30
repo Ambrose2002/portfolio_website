@@ -17,10 +17,10 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        I'm a passionate computer science student with a strong enthusiasm for software engineering, 
-                        particularly in the fields of machine learning and big data. 
-                        I'm committed to harnessing the power of data to create innovative 
-                        solutions and drive business success.
+                    Hello and welcome! I'm Ambrose Blay, currently studying myself in Computer Science at Cornell University. 
+                    I'm an advocate for mentorship, guiding aspiring talents in the tech. 
+                    Passionate about innovation and inclusivity, I strive to contribute meaningfully to the ever-evolving tech landscape. 
+                    Explore my portfolio to discover more about my projects, skills, and aspirations.
                     </p>
 
                     <a href={Resume} className="button button--flex" target="_blank">View Resume
