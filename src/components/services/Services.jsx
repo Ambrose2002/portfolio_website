@@ -7,6 +7,15 @@ const Services = () => {
     const toggleTab = (index) =>{
         setToggleState(index)
     }
+
+    // if (toggleState === 1){
+    //     document.querySelector('.services__modal').style.opacity = 1;
+    //     document.querySelector('.services__modal').style.visibility = "visible";
+    // }else if (toggleState === 0){
+    //     document.querySelector('.services__modal').style.opacity = 0;
+    //     document.querySelector('.services__modal').style.visibility = "hidden";
+    // }
+    
     return (
         <section className="services section" id="services">
             <h2 className="section__title">Services</h2>
@@ -24,6 +33,7 @@ const Services = () => {
                     </span>
 
                     <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"} >
+                    {/* <div className="services__modal" > */}
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close" ></i>
 
