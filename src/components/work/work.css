@@ -50,6 +50,7 @@
 @media screen and (max-width: 992px) {
   .work__container {
     gap: 1.5rem;
+    width: 98vw;
   }
 
   .work__card {
@@ -58,6 +59,7 @@
 
   .work__img {
     margin-bottom: 0.75rem;
+    width: 230px;
   }
 }
 
