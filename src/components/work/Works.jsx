@@ -13,7 +13,7 @@ const Works = () => {
                 })
             }
             <div className="work__card" key="5">
-                <video className='work__img' height="190px" playsinline autoplay loop>
+                <video className='work__img' height="190px" playSinline autoPlay muted>
                     <source src={Work5} type='video/mp4'/>
                 </video>
                 <h3 className="work__title">Invaders</h3>
@@ -23,7 +23,7 @@ const Works = () => {
             </div>
 
             <div className="work__card" key="6">
-                <video className='work__img' height="190px"  playsinline autoplay loop>
+                <video className='work__img' height="190px"  playSinline autoPlay muted>
                     <source src={Work6} type='video/mp4'/>
                 </video>
                 <h3 className="work__title">ConnectN</h3>
