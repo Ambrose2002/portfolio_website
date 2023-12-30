@@ -23,7 +23,7 @@ const About = () => {
                         solutions and drive business success.
                     </p>
 
-                    <a download = "" href={Resume} className="button button--flex">Download Resume
+                    <a href={Resume} className="button button--flex" target="_blank">View Resume
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
