@@ -9,7 +9,7 @@ export const projectsData = [
         image: Work1,
         title: "UniNav",
         category: "web",
-        link: "https://github.com/Ambrose2002/UniNav"
+        link: "http://www.uninav.info/"
     },
     {
         id: 2,
